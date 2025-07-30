@@ -26,7 +26,12 @@ import java.nio.charset.StandardCharsets;
  * 1 - {@link }<br>
  * Methods<br>
  * <ul>
- *     <li>{@link }</li>
+ *     <li>{@link MoraHexUtilities#convertStringToHexWithApacheCommons(String)}</li>
+ *     <li>{@link MoraHexUtilities#convertStringToHexWithApacheCommons(String, Boolean)}</li>
+ *     <li>{@link MoraHexUtilities#convertByteArrayToHexWithApacheCommons(byte[])}</li>
+ *     <li>{@link MoraHexUtilities#convertStringToUnHexWithApacheCommons(String)}</li>
+ *     <li>{@link MoraHexUtilities#convertStringToUnHexByteArrayWithApacheCommons(String)}</li>
+ *     <li>{@link MoraHexUtilities#convertStringToHexWithIntegerWrapper(String)}</li>
  * </ul>
  * <p>
  * Notes
@@ -42,6 +47,11 @@ import java.nio.charset.StandardCharsets;
  * <br>-------------------------------------------------------
  * <br>1.0          7/30/2025      SLMORA                Initial Code
  * </pre></blockquote>
+ *
+ * @see <a href="https://mkyong.com/java/how-to-convert-hex-to-ascii-in-java/">mkyong how-to-convert-hex-to-ascii-in-java</a>
+ * @see <a href="https://mkyong.com/java/java-how-to-convert-bytes-to-hex/">mkyong java-how-to-convert-bytes-to-hex</a>
+ * @see <a href="https://en.wikipedia.org/wiki/Hexadecimal">wikipedia Hexadecimal</a>
+ * @see <a href="https://stackoverflow.com/questions/32180069/how-do-i-perform-mysql-unhex-function-in-java">stackoverflow how-do-i-perform-mysql-unhex-function-in-java</a>
  */
 public class MoraHexUtilities
 {
