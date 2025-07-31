@@ -21,10 +21,14 @@ import java.nio.charset.StandardCharsets;
 
 /**
  * The {@code MoraHexUtilities} Class created for Utility class providing various methods to convert strings and byte arrays to and from hexadecimal format.
- *  * Supports Apache Commons, Spring Security Crypto, manual bitwise, and Java built-in approaches.
- * Codes<br>
+ * Supports Apache Commons, Spring Security Crypto, manual bitwise, and Java built-in approaches.
+ * <h4>Key Features</h4>
+ * <ul>
+ *      <li>...</li>
+ * </ul>
+ * <h4>Codes</h4>
  * 1 - {@link }<br>
- * Methods<br>
+ * <h4>Methods</h4>
  * <ul>
  *     <li>{@link MoraHexUtilities#convertStringToHexWithApacheCommons(String)}</li>
  *     <li>{@link MoraHexUtilities#convertStringToHexWithApacheCommons(String, Boolean)}</li>
@@ -34,7 +38,7 @@ import java.nio.charset.StandardCharsets;
  *     <li>{@link MoraHexUtilities#convertStringToHexWithIntegerWrapper(String)}</li>
  * </ul>
  * <p>
- * Notes
+ * <h4>Notes</h4>
  * <ul>
  *     <li>....</li>
  * </ul>
@@ -42,6 +46,7 @@ import java.nio.charset.StandardCharsets;
  * @author: SLMORA
  * @since 1.0
  *
+ * <h4>Revision History</h4>
  * <blockquote><pre>
  * <br>Version      Date            Editor              Note
  * <br>-------------------------------------------------------
@@ -55,10 +60,10 @@ import java.nio.charset.StandardCharsets;
  */
 public class MoraHexUtilities
 {
-    final static Logger LOGGER = LogManager.getLogger(MoraHexUtilities.class);
+    private final Logger LOGGER = LogManager.getLogger(MoraHexUtilities.class);
 
-    private static final char[] HEX_UPPER = "0123456789ABCDEF".toCharArray();
-    private static final char[] HEX_LOWER = "0123456789abcdef".toCharArray();
+    private final char[] HEX_UPPER = "0123456789ABCDEF".toCharArray();
+    private final char[] HEX_LOWER = "0123456789abcdef".toCharArray();
 
     /**
      * Converts a UTF-8 string to its hexadecimal representation using Apache Commons Codec.
